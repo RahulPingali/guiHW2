@@ -1,0 +1,138 @@
+/*
+File: index.html
+GUI Assignment: Edit the pacific.css page to emulate the webpage shown in the pacific.jpg file.
+Rahul Pingali, UMass Lowell Computer Science, rahul_pingali@student.uml.edu
+What it does: This is the pacific.css file that is linked to the index.html file. It contains the CSS code that is used to style the webpage.
+This file styles the webpage layed out in the pacific.jpg file. It contains the styling for the header, footer, navigation bar, and the content of the webpage.
+The index.html file lays out all these tags and containers, and the styles were implemented in this file.
+Copyright (c) 2024 by Rahul. All rights reserved. May be freely copied or 
+excerpted for educational purposes with credit to the author.
+updated by RP on May 27, 2024 at 7:30 PM
+*/
+
+
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+body {
+    background-color: lightblue;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    width: 250px;
+}
+
+.resort {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #5a6881;
+    display: block;
+}
+
+nav ul {
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0;
+    float: left;
+}
+
+nav ul li {
+    margin-bottom: 10px; /* Add margin between items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Ensure default color for links */
+}
+
+nav a:hover {
+    color: #344873; /* Change color on hover if desired */
+}
+
+nav a:visited {
+    color: black; /* Ensure visited links don't change color */
+}
+
+h1 {
+    background-color: #050f27;
+    margin-bottom: 0;
+    padding: 10px;
+    color: white;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 0;
+}
+
+h2 {
+    color: #3399CC;
+    text-align: left;
+    z-index: 1;
+    background-color: white;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	display: block;
+    font-size: 90%;
+	
+}
+
+footer {
+    font-family: Georgia, "Times New Roman", serif;
+    display: block;
+    margin-left: 249px;
+    background-color: white;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+#content {
+    overflow: hidden; /* Clear floats */
+    margin-left: 20%;
+    background-color: white;
+    position: relative; /* Ensure the footer is part of the content */
+    padding-bottom: 50px; /* Add some space at the bottom if needed */
+    width: 80%;
+    padding-left: 50px;
+}
+
+#content h2 {
+    width: 100%;
+}
+
+#content img {
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+
+#content p, #content ul {
+    overflow: hidden; /* Clear floats */
+}
+
+h2 {
+    color: #3399CC;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+    font-size: 90%;
+	clear: both;
+	margin-top: 20px;
+}
+
+
